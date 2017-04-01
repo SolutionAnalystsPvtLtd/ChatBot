@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ChatUI' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Below are the pods used for prototype  
+  pod 'JSQMessagesViewController' # Thrid party sdk for chat ui
+  #Description: JSQMessagesViewController is an elegant messages UI library for iOS
+  #Reference: https://cocoapods.org/pods/JSQMessagesViewController
+  
+  pod ‘ApiAI’
+  #Description: The API.AI Objective-C(Cocoa) SDK makes it easy to integrate speech recognition with API.
+  #Reference: https://cocoapods.org/pods/ApiAI
+  
+end
